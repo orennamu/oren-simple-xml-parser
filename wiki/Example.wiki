@@ -1,7 +1,7 @@
 #summary Example Source
 #labels Featured,Example-Source
 
-=== - Read Xml ===
+=== Read Xml ===
 {{{
 // Url Read
 URL url;
@@ -11,6 +11,12 @@ Document doc = new XmlParser().parse(uc.getInputStream());
 Element ele = doc.gRootElem();
 
 // File Read
-Document doc = new XmlParser().parse("Xml File FullPath");
+Document doc = new XmlParser().parse("C:/test.xml");
 Element ele = doc.gRootElem();
+
+// String Read
+String xml = "<root><sub1><sub2><sub3>test</sub3></sub2><sub1></root>";
+Document doc = new XmlParser().parseString(xml);
+Element ele = doc.gRootElem();
+
 }}}
