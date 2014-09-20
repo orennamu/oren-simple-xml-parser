@@ -6,7 +6,7 @@ package com.oren.xml;
 import java.util.Vector;
 
 /**
- * @author giil
+ * @author orennamu
  *
  */
 public class Element {
