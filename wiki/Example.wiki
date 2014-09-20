@@ -24,7 +24,7 @@ Document doc = new Document();
 doc.sRootElem(new Element("root"));
 }}}
 
-=== Stream ===
+=== Document output ===
 {{{
 String xml = "<root><sub1><sub2><sub3>test</sub3></sub2><sub1></root>";
 Document doc = new XmlParser().parseString(xml);
