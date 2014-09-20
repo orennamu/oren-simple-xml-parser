@@ -88,7 +88,7 @@ public class Document {
 		try {
 			return xmlToString().getBytes(encodding);
 		} catch (UnsupportedEncodingException e) {
-			System.out.println("gXml : Document : Error -> " + e.getMessage());
+			System.out.println("orenXml : Document : Error -> " + e.getMessage());
 			return null;
 		}
 	}
@@ -129,7 +129,7 @@ public class Document {
 			out.write(this.header.getBytes());
 			XmlToOutputStream(root, 0, out);
 		} catch (IOException e) {
-			System.out.println("gXml : Document : Error -> " + e.getMessage());
+			System.out.println("orenXml : Document : Error -> " + e.getMessage());
 		}
 	}
 }
