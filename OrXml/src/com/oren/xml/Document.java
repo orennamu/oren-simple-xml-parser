@@ -10,7 +10,7 @@ import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @author giil
+ * @author orennamu
  *
  */
 public class Document {
