@@ -1,5 +1,5 @@
 #summary Example Source
-#labels Featured,ExampleSource
+#labels Featured,Example-Source
 
 === - Read Xml Url ===
 {{{
