@@ -1,9 +1,9 @@
 #summary Download page
-#labels Featured,Downloads,Phase-Deploy
+#labels Featured,Downloads
 
 = Introduction =
 
-Add your cosntent here.
+[http://domain/page label]
 
 
 = Details =
