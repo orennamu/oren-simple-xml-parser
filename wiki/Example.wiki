@@ -18,6 +18,10 @@ Element ele = doc.gRootElem();
 String xml = "<root><sub1><sub2><sub3>test</sub3></sub2><sub1></root>";
 Document doc = new XmlParser().parseString(xml);
 Element ele = doc.gRootElem();
+
+// new Xml
+Document doc = new Document();
+doc.sRootElem(new Element("root"));
 }}}
 
 === Stream ===
