@@ -42,7 +42,7 @@ public class XmlParser extends DefaultHandler {
 			  is = new FileInputStream(filePath);
 			  return parse(is, bNs, null);
 		  } catch (FileNotFoundException e) {
-			  System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+			  System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 			  return null;
 		  }
 	  }
@@ -69,13 +69,13 @@ public class XmlParser extends DefaultHandler {
 			  pa.setContentHandler(this);  
 			  pa.parse(new InputSource(new ByteArrayInputStream(str.getBytes())));
 		  } catch (ParserConfigurationException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (SAXException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (FactoryConfigurationError e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (IOException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  }
 		  return doc;
 	  }
@@ -99,13 +99,13 @@ public class XmlParser extends DefaultHandler {
 			  pa.setContentHandler(this);  
 			  pa.parse(new InputSource(in)); 
 		  } catch (ParserConfigurationException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (SAXException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (FactoryConfigurationError e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  } catch (IOException e) {
-				System.out.println("gXml : XmlParser : Error -> " + e.getMessage());
+				System.out.println("orenXml : XmlParser : Error -> " + e.getMessage());
 		  }
 		  return doc;
 	  }
