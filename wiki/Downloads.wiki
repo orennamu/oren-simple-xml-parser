@@ -3,4 +3,4 @@
 
 = download list =
 
-orenXml_0.7.0.jar => [http://giil.woto.net/downloads/orenXml_0.7.0.jar]
+orenXml_0.7.0.jar => [https://code.google.com/p/oren-simple-xml-parser/source/browse/trunk/OrXml/orenXml_0.7.0.jar]
