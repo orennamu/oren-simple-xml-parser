@@ -11,9 +11,8 @@ package com.oren.xml;
 public class Namespace {
 	String NamespaceURI = "";
 	String names = ""; 
-	public Namespace(String namesUri) {
-		NamespaceURI = namesUri;
-		//this.names = names;
+	public Namespace(String names) {
+		this.names = names;
 	}
 	public Namespace(String names, String namesUri) {
 		NamespaceURI = namesUri;
